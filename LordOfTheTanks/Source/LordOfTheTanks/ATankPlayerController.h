@@ -16,4 +16,5 @@ class LORDOFTHETANKS_API AATankPlayerController : public APlayerController
 public:
 	AATank* GetControlledTank() const;
 
+	virtual void BeginPlay() override;
 };
