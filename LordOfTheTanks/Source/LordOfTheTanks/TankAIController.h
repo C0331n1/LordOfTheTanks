@@ -21,4 +21,10 @@ public:
 	AATank* GetControlledTank() const;
 
 	AATank* GetPlayerTank() const;
+
+private:
+	// Called every frame
+	virtual void Tick(float DeltaSeconds) override;
 };
+
+

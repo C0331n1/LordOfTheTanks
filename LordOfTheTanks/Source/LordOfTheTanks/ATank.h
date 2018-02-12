@@ -11,6 +11,10 @@ class LORDOFTHETANKS_API AATank : public APawn
 	GENERATED_BODY()
 
 public:
+	virtual void AimAt(FVector HitLocation);
+
+private:
+	
 	// Sets default values for this pawn's properties
 	AATank();
 
@@ -23,6 +27,5 @@ public:
 	// Called to bind functionality to input
 	virtual void SetupPlayerInputComponent(class UInputComponent* InputComponent) override;
 
-	
 	
 };
