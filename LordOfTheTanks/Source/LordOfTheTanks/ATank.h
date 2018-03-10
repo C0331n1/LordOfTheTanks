@@ -6,6 +6,8 @@
 #include "GameFramework/Pawn.h"
 #include "ATank.generated.h"
 
+class UTankBarrel;
+
 UCLASS()
 class LORDOFTHETANKS_API AATank : public APawn
 {
@@ -16,13 +18,13 @@ public:
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
 
-	void SetBarrelReference(UStaticMeshComponent* BarrelToSet);
+	void SetBarrelReference(UTankBarrel* BarrelToSet);
 
 protected: 
 	UTankAimingComponent* TankAimingComponent = nullptr;
 
 private:
-	
+		
 	// Sets default values for this pawn's properties
 	AATank();
 
