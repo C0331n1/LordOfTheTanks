@@ -17,7 +17,6 @@ public:
 	virtual void AimAt(FVector HitLocation);
 
 	UFUNCTION(BlueprintCallable, Category = Setup)
-
 	void SetBarrelReference(UTankBarrel* BarrelToSet);
 
 protected: 

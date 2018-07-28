@@ -15,7 +15,7 @@ UTankAimingComponent::UTankAimingComponent()
 	// ...
 }
 
-void UTankAimingComponent::SetBarrelReference(UTankBarrel* BarrelToSet) 
+void UTankAimingComponent::SetBarrelReference(UTankBarrel * BarrelToSet) 
 {
 	Barrel = BarrelToSet;
 }
