@@ -1,6 +1,7 @@
 // Fill out your copyright notice in the Description page of Project Settings.
 
 #include "LordOfTheTanks.h"
+#include "ATank.h"
 #include "ATankPlayerController.h"
 
 void AATankPlayerController::BeginPlay()
